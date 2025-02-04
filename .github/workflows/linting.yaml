@@ -22,7 +22,7 @@ jobs:
 
     - name: Run isort to check import order
       run: |
-        isort . --check --diff
+        isort . --check --diff --profile black
 
     - name: Run black to check code formatting
       run: |
